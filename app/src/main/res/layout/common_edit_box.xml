@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id="@+id/id_ll_edit"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginLeft="12dp"
+  android:layout_marginTop="12dp"
+  android:layout_marginRight="12dp"
+  android:orientation="vertical">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <com.litongjava.android.view.CommonEditText
+      android:id="@+id/commonEditTextContent"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@null"
+      android:gravity="start"
+      android:hint=""
+      android:imeOptions="actionDone"
+      android:inputType="textMultiLine"
+      android:lineSpacingExtra="3dp"
+      android:maxLength="500"
+      android:minHeight="120dp"
+      android:textColor="@color/char_color66"
+      android:textColorHint="@color/char_color99"
+      android:textSize="15sp" />
+
+    <LinearLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right|bottom"
+      android:gravity="right|bottom"
+      android:orientation="horizontal"
+      android:paddingLeft="12dp"
+      android:paddingBottom="12dp">
+
+      <TextView
+        android:id="@+id/textViewWordCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/char_colorbb"
+        android:textSize="12sp" />
+
+      <TextView
+        android:id="@+id/textViewWordMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/char_colorbb"
+        android:textSize="12sp" />
+    </LinearLayout>
+
+  </LinearLayout>
+</LinearLayout>
